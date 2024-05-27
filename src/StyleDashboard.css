@@ -708,3 +708,6 @@ button.detail{
 .content form{
   overflow: auto;
 }
+.ck.ck-editor{
+  margin-bottom: 1rem !important;
+}
