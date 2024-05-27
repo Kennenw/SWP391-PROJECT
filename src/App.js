@@ -14,6 +14,7 @@ import { USERS } from "./data";
 import Users from "./User";
 import Court from "./Court";
 import About from "./AboutUS";
+import Payment from "./Payment";
 import './App.css';
 import Role from "./Role";
 import './StyleHome.css';
@@ -35,6 +36,7 @@ const App = () => {
         <Route path="Court" element={<><Sidebar activeLink={activeLink} setActiveLink={setActiveLink} /><Court setActiveLink={setActiveLink} /></>} />
         <Route path="Home" element={<><Header /><Home /><Footer /></>} />
         <Route path="AboutUS" element={<><Header /><About /><Footer /></>} />
+        <Route path="Payment" element={<><Header /><Payment /><Footer /></>} />
         <Route path="HomeStaff" element={<><Header /><HomeStaff /><Footer /></>} />
         <Route path="BookInStaff" element={<><Header /><BookInStaff /><Footer /></>} />
         <Route path="HomeManager" element={<><Header /><HomeManager /><Footer /></>} />
