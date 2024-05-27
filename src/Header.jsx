@@ -43,7 +43,7 @@ const Header = () => {
                 <li style={{width: "-webkit-fill-available"}}></li>
                 <li><NavLink to="/Home">HOME</NavLink></li>
                 <li><NavLink to="/AboutUS">ABOUT US</NavLink></li>
-                <li><a href="">BOOK PLAY</a></li>
+                <li><NavLink to="/Payment">BOOK PLAY</NavLink></li>
                 <li><a href="">CHECK IN</a></li>
                 <li><a href="">SUPPORT</a></li>
                 {user ? (
