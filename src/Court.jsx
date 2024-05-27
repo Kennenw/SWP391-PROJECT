@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from "react";
+\import React, { useState, useEffect } from "react";
 import './StyleDashboard.css';
 import { COURT } from "./courts";
+import { CKEditor } from '@ckeditor/ckeditor5-react';
+import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 
 const Court = () => {
   const [court, setCourt] = useState(COURT);
@@ -9,6 +11,7 @@ const Court = () => {
   const [sortOrder, setSortOrder] = useState('asc');
   const [selectedCourt, setSelectedCourt] = useState(null);
   const [activeFilter, setActiveFilter] = useState(null);
+  const [ruleContent, setRuleContent] = useState('');
 
   useEffect(() => {
     let sidebar = document.querySelector(".sidebar");
@@ -53,6 +56,11 @@ const Court = () => {
       court[activeFilter].toLowerCase().includes(e.target.value.toLowerCase())
     );
     setFilteredCourt(searchResults);
+  };
+
+  const handleRuleChange = (event, editor) => {
+    const data = editor.getData();
+    setRuleContent(data);
   };
 
   return (
@@ -100,7 +108,7 @@ const Court = () => {
                 <td>{court.rule}</td>
                 <td>{court.status}</td>
                 <td className="put">
-                  <button className='detail' onClick={() => setSelectedCourt(court)}>
+                  <button className='detail' onClick={() => {setSelectedCourt(court); setRuleContent(court.rule);}}>
                     <a href='#popup1' id='openPopUp'>
                     <svg width="33" height="33" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="65.8739" height="65.8739" rx="32.937" fill="#292D32"/>
@@ -154,10 +162,22 @@ const Court = () => {
                 <input type="text" className="form-control" id="inputCloseTime"   defaultValue={selectedCourt.closeTime} />
                 <label htmlFor="inputCloseTime" className="form-label">Close Time</label>
               </div>
-              <div className="form-floating mb-3">
-                <input type="text" className="form-control" id="inputRule"   defaultValue={selectedCourt.rule} />
-                <label htmlFor="inputRule" className="form-label">Rule</label>
-              </div>
+              <CKEditor
+                    editor={ ClassicEditor }
+                    data={ruleContent}
+                    onReady={ editor => {
+                        console.log( 'Editor is ready to use!', editor );
+                    } }
+                    onChange={ ( event ) => {
+                        console.log( event );
+                    } }
+                    onBlur={ ( event, editor ) => {
+                        console.log( 'Blur.', editor );
+                    } }
+                    onFocus={ ( event, editor ) => {
+                        console.log( 'Focus.', editor );
+                    } }
+                />
               <div className="form-floating mb-3">
                 <input type="text" className="form-control" id="inputStatus"   defaultValue={selectedCourt.status} />
                 <label htmlFor="inputStatus" className="form-label">Status</label>
