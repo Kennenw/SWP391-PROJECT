@@ -1,0 +1,328 @@
+@import url('https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css');
+.image-container ul {
+    list-style-type: none;
+    display: flex;
+    top: 0;
+    position: absolute;
+    width: -webkit-fill-available;
+    padding: 0;
+    border-bottom: 1px solid;
+    padding-bottom: 8px;
+    margin-top: 0.6rem;
+}
+.image-container ul a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.image-container ul li{
+    padding: 10px;
+}
+.allBody form button {
+    background-color: #26CF89;
+    border: none;
+    color: white;
+    border-radius: 56px;
+}
+.in{
+    background-color: #3093DB;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.in a{
+    text-transform: none !important;
+}
+.up{
+    border: none;
+}
+.up a{
+    border: none;
+    color: #0A157A !important;
+    cursor: pointer;
+    text-transform: none !important;
+}
+body:has(.image-container){
+    margin: 0;
+    background-color: #E0FAE2;
+    overflow: auto;
+}
+.image-container ul li:has(a){
+    width: 240px;
+    text-align: center;
+}
+.user-info{
+    margin-right: 9px;
+    width: 240px;
+    text-align: center;
+    color: white;
+}
+.allBody form{
+    height: auto;
+}
+.allBody .form-floating{
+    margin-right: 40px;
+}
+.image-container ul button {
+    width: 200px;
+    margin-right: 11px;
+    border-radius: 8px;
+}
+.body h1{
+    color: #26CF89;
+}
+.body{
+    margin: 0 auto;
+    width: max-content;
+    position: relative;
+    background-color: white;
+    top: -140px;
+    padding: 70px;
+    border-radius: 32px;
+}
+.comment1{
+    margin: 0 40px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+.comment{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://gallantsports.in/wp-content/uploads/2024/02/Badminton-Court-1024x683.png);
+    background-position: 0px -232px;
+    padding: 62px 67px;
+    background-color: black;
+    /* opacity: 0.7; */
+}
+.comment1 h3{
+    font-size: 20px;
+}
+.comment1 h5{
+    font-size: 17px;
+    font-weight: 400;
+}
+.footer h3{
+    color: #3430DB;
+    font-size: 22px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.footer .card{
+    background-color: transparent;
+    border: none;
+}
+.link{
+    line-height: 36px;
+    margin-top: 13px;
+}
+.hotline{
+    max-width: 100%;
+    width: 200px;
+    color: #3430DB;
+    background-color: white;
+    padding: 14px;
+    margin-top: 19px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.social svg:not(:root){
+    margin-right: 17px;
+}
+.card{
+    margin-top: 18px;
+    width: -webkit-fill-available;
+    padding-bottom: 10px;
+}
+
+.chooseplace input{
+    height: 80px;
+}
+
+.body-staff{
+    padding: 40px;
+}
+.check-in{
+    color: #2CD428;
+    font-size: 29px;
+}
+.check-input{
+    width: 100%;
+    margin: 50px auto;   
+    background-color: #D9D9D9;
+    padding: 38px;
+    max-width: 580px;
+    border-radius: 25px;
+}
+.check-input .mb-3{
+    margin: 45px 0 !important;
+}
+.choose-staff{
+    font-size: 19px;
+}
+.dropdown{
+    padding: 1px;
+}
+.user-info{
+    width: max-content !important;
+    border: none;
+    background-color: black;
+    padding: 9px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black !important;
+    padding: 12px 16px;
+    text-decoration: none !important;
+    display: block;
+}  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}  
+.show {
+    display: block;
+}
+.body-manager form{
+    height: auto;
+    margin: 20px auto;
+}  
+.choose-manager{
+    font-size: 33px;
+    text-align: center;
+    margin-top: 30px;
+}
+.first-row{
+    display: flex;
+    padding: 40px;
+    background-color: rgb(255, 255, 255, 66%);
+}
+.second-row{
+    display: flex;
+    padding: 40px;
+}
+.third-row{
+    display: flex;
+    padding: 40px;
+    background-color: #0DC088;
+}
+.forImage{
+    margin: 0 122px;
+}
+.detail{
+    font-size: 20px;
+}
+.forImage img{
+    width: 427px;
+    border-radius: 62px;
+    border: 1px solid black;
+}
+.first-row .content,.second-row .content,.third-row .content{
+    background-color: #fff;
+    border-radius: 62px;
+    padding: 44px;
+}
+.aboutUS{
+    font-size: 70px;
+    position: absolute;
+    top: 63px;
+    width: -webkit-fill-available;
+    height: 437px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partner{
+    font-size: 41px;
+    text-align: center;
+    margin: 25px 0;
+}
+.icon-partner{
+    text-align: center;
+}
+.icon-partner svg {
+    margin: 17px 31px;
+}
+.pay-content{
+    font-size: 33px;
+    text-align: center;
+    margin: 30px;
+    font-weight: 600;
+}
+.pay-col{
+    width: 50%;
+    max-width: 100%;
+}
+.pays{
+    display: flex;
+}
+.pay-detail{
+    line-height: 60px;
+    font-size: 26px;
+}
+.qr-code{
+    text-align: center;
+}
+.qr-code img{
+    width: 435px;
+    max-width: 100%;
+}
+.intro-pay{
+    background-color: #0DC088;
+    padding: 30px;
+}
+.pay-process{
+    font-size: 33px;
+    padding: 22px;
+    font-weight: 600;
+}
+.pay-row{
+    display: flex;
+}
+.pay-step{
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: center;
+}
+.pay-step h3{
+    background-color: #EC1F7E;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    border-radius: 19px;
+    color: white;
+}
+.font-pay{
+    font-size: 23px;
+}
+.pay-qr{
+    position: absolute;
+    right: 16%;
+    bottom: 5%;
+    font-size: 21px;
+    font-weight: 600;
+}
+.pay-infor{
+    margin-bottom: 60px;
+}
+.fa-circle-check{
+    color: #5de80d;
+    font-size: 170px;
+}
+.pay-content:has(.fa-circle-check){
+    margin: 90px
+}
+.pay-success{
+    text-align: center;
+    font-size: 33px;
+    margin: 50px 0;
+    color: #53250A;
+}
