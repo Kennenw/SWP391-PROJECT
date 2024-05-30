@@ -1,0 +1,15 @@
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\bin\Debug\net8.0\Services.deps.json
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\bin\Debug\net8.0\Services.dll
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\bin\Debug\net8.0\Services.pdb
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\bin\Debug\net8.0\BookingV2.Repositories.dll
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\bin\Debug\net8.0\BookingV2.Repositories.pdb
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\obj\Debug\net8.0\Services.dll
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\obj\Debug\net8.0\refint\Services.dll
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\obj\Debug\net8.0\Services.pdb
+D:\FPT\SE5\PRN212\Demo\BookingV2\Services\obj\Debug\net8.0\ref\Services.dll
